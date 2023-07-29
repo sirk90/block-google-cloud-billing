@@ -1,7 +1,7 @@
 ################ Constants ################
 
 constant: RECOMMENDATION_TABLE {
-  value: "all-cloud-billing-394302.gcp_billing_export.gcp_recommendations_export"
+  value: "all-cloud-billing-394302.gcp_billing_export.recommendations_export"
   export: override_optional
 }
 
@@ -11,7 +11,7 @@ constant: BILLING_TABLE {
 }
 
 constant: PRICING_TABLE {
-  value: "all-cloud-billing-394302.gcp_billing_export.gcp_pricing_export"
+  value: "all-cloud-billing-394302.gcp_billing_export.cloud_pricing_export"
   export: override_optional
 }
 
